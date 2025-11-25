@@ -18,9 +18,9 @@ const Login = () => {
         router.replace("/dashboard")
     }
     return (
-        <Card className="max-w-lg mx-auto text-gray-950">
+        <Card className="max-w-lg mx-auto text-gray-950 dark:bg-black dark:text-gray-100">
             <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col items-center gap-5">
-                <label className="">Login</label>
+                <label className="text-xl font-bold">Login</label>
                 <Input label="Username" placeholder="Enter your username..." required={true} id="username" name="username" register={register} registerId="username" type="text" />
                 {errors.username ?
                     <span className="text-red-600 text-left w-full">{errors.username.message}</span>

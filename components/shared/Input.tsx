@@ -23,7 +23,7 @@ const Input = <TFormValues extends FieldValues = FieldValues>({
                 <input
                     type={type}
                     dir={dir}
-                    className={`border-b p-2 rounded-lg dark:border-black dark:bg-white placeholder:text-gray-500 focus:border outline-0 px-3 focus:shadow-lg w-full shadow-sm ${className} ${icon ? 'pl-12' : ''}`}
+                    className={`border-b p-2 rounded-lg dark:border-black dark:bg-white placeholder:text-gray-500 focus:border outline-0 px-3 focus:shadow-lg w-full shadow-sm text-gray-900 ${className} ${icon ? 'pl-12' : ''}`}
                     placeholder={placeholder}
                     id={id}
                     {...register(registerId, { required })}

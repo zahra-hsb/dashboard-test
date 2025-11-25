@@ -11,7 +11,7 @@ const Providers = ({ children }: {
     return (
         <ThemeProvider attribute={'class'} defaultTheme="system" enableColorScheme>
             {children}
-            <ToggleDarkModeBtn />
+            {/* <ToggleDarkModeBtn /> */}
         </ThemeProvider>
     )
 }
