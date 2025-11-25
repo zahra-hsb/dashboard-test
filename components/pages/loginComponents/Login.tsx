@@ -28,7 +28,7 @@ const Login = () => {
                 <Input label="Password" placeholder="Enter your password..." required={true} id="password" name="password" register={register} registerId="password" type="password" />
                 {errors.password ?
                     <span className="text-red-600 text-left w-full">{errors.password.message}</span> : ""}
-                <Button>
+                <Button className="active:border-black">
                     Submit
                 </Button>
             </form>

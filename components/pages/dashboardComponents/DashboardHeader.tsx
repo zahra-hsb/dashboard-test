@@ -1,9 +1,15 @@
+import Button from "@/components/shared/Button";
+import { BiLogOut } from "react-icons/bi";
 
 
 const DashboardHeader = () => {
     return (
-        <header className="w-full border-b p-5 sticky top-0 left-0 shadow px-10">
+        <header className="flex items-center justify-between w-full border-b p-5 sticky top-0 left-0 shadow px-10 lg:px-32">
             <p className="text-xl font-bold">Dashboard</p>
+            <Button className="flex items-center gap-1  !w-auto  !mt-0">
+                <p>Logout</p>
+                <BiLogOut className="" size={20} />
+            </Button>
         </header>
     )
 }
