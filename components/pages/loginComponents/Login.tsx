@@ -1,9 +1,9 @@
 "use client"
 import { useForm } from "react-hook-form";
-import Card from "../shared/Card";
-import Input from "../shared/Input";
+import Card from "../../shared/Card";
+import Input from "../../shared/Input";
 import { LoginFormType } from "@/utils/schemas/types";
-import Button from "../shared/Button";
+import Button from "../../shared/Button";
 import { LoginSchema } from "@/utils/schemas/zodSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "next/navigation";

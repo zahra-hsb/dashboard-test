@@ -1,5 +1,4 @@
-import Login from "@/components/pages/Login";
-import ToggleDarkModeBtn from "@/components/shared/ToggleDarkModeBtn";
+import Login from "@/components/pages/loginComponents/Login";
 
 export default function Home() {
   return (
