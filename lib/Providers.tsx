@@ -9,7 +9,7 @@ const Providers = ({ children }: {
     children: ReactNode
 }) => {
     return (
-        <ThemeProvider attribute={'class'} defaultTheme="system">
+        <ThemeProvider attribute={'class'} defaultTheme="system" enableColorScheme>
             {children}
             <ToggleDarkModeBtn />
         </ThemeProvider>
