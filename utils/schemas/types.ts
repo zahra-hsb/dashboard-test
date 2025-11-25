@@ -14,3 +14,8 @@ export interface TextInputType<TFormValues extends FieldValues> {
     required: boolean;
     register: UseFormRegister<TFormValues>;
 }
+
+export interface LoginFormType {
+    username: string;
+    password: string;
+}
